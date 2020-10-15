@@ -20,7 +20,7 @@ const popup = L.popup({
     minWidth: 240,
     minHeight: 240,
   }).setContent(
-    'Lar das meninas <a href="orfanatos.html?id=1" class="choose-orfanatos"> <img src="./public/images/arrow-white.svg"> </a>'
+    'Lar das meninas <a href="orfanato.html?id=1" class="choose-orfanatos"> <img src="./public/images/arrow-white.svg"> </a>'
   );
 
 //create and add mark
