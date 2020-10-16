@@ -18,14 +18,17 @@
     <link rel="icon" href="./public/images/logo-icon.png" />
 
     <link rel="stylesheet" href="./public/css/main.css" />
-    <link rel="stylesheet" href="./public/css/page-create-orfanato.css" />
     <link rel="stylesheet" href="./public/css/animations.css" />
     <link rel="stylesheet" href="./public/css/sidebar.css" />
+    <link rel="stylesheet" href="./public/css/map.css" />
+    <link rel="stylesheet" href="./public/css/form.css" />
+    <link rel="stylesheet" href="./public/css/page-create-orfanato.css" />
+
 
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap" rel="stylesheet"> 
   </head>
   <body>
-    <div id="create-orfanato">
+    <div id="page-create-orfanato">
       <aside class="animate-right sidebar">
           
         <img src="./public/images/map-marker.svg" alt="Happy">
@@ -42,14 +45,40 @@
 
       <form action="">
         <fieldset>
-          <legend>Dados
-          </legend>
+          <legend>Dados</legend>
+          <div class="map-container">
+            <div id="mapid"> </div>
+
+            <footer>
+              <a href="#" id="select-point">
+                Clique no mapa para adicionar a localização
+              </a>
+            </footer>
+
+          </div>
+
+          <div class="input-block">
+            <label for="name">Nome</label>
+            <input id="name" name="name">
+          </div>
+
+          <div class="input-block">
+            <label for="about">Sobre <span>Máximo de 300 caracteres</span></label>
+            <textarea id="about" name="about"></textarea>
+          </div>
+          
+          <div class="input-block">
+            <label for="whatsapp">Número de whatsapp</label>
+            <input id="whatsapp" name="whatsapp">
+          </div>
+
         </fieldset>
         
         <fieldset>
-          <legend>
-            Visitação
-            </legend>
+          <legend> Visitação </legend>
+         
+     
+
         </fieldset>
 
 
